@@ -1,0 +1,1 @@
+{"ast":null,"code":"import auth0 from '../../lib/auth0'; //req e res é a abreviação de request e response\n//quando a pessoa loga estamos enviando a pessoa para arquivo app\n\nconst callback = async (req, res) => {\n  await auth0.handleCallback(req, res, {\n    redirectTo: '/app'\n  });\n};\n\nexport default callback;","map":null,"metadata":{},"sourceType":"module"}

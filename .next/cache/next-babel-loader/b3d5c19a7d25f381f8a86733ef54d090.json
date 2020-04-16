@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const getCurrentDate = () => {\n  const today = new Date();\n  const currentDate = today.getFullYear() + '-' + today.getMonth() + '-' + today.getDate();\n  return currentDate;\n};","map":null,"metadata":{},"sourceType":"module"}
